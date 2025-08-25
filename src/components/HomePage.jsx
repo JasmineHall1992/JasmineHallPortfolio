@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 const HomePage = () => (
-  <div className="min-h-screen bg-pink-50 text-gray-800 px-6 pt-16 pb-32 font-sans relative overflow-hidden flex flex-col justify-between">
+  <div className="min-h-screen bg-pink-200 text-gray-800 px-6 pt-16 pb-32 font-sans relative overflow-hidden flex flex-col justify-between">
 
     {/* ✨ Floating Background Objects */}
     <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
@@ -41,12 +41,12 @@ const HomePage = () => (
           </span>
         </h1>
 
-        <p className="text-pink-400 uppercase text-sm tracking-widest mb-4">
+        <p className="text-pink-700 font-semibold uppercase text-sm tracking-widest mb-4">
           Software Engineer + Project Manager
         </p>
 
-        <p className="text-lg leading-relaxed mb-6 text-gray-700 max-w-xl mx-auto lg:mx-0">
-          Hi! I’m a developer and project manager passionate about crafting joyful digital experiences. My background managing film sets brings creativity, calm, and coordination to every project 🌷
+        <p className="text-3xl leading-relaxed mb-6 text-gray-700 max-w-xl mx-auto lg:mx-0">
+          Welcome! My name is Jasmine Hall and I am a developer and project manager passionate about crafting joyful digital experiences. My background managing film sets brings creativity, calm, and coordination to every project 🌷
         </p>
 
         {/* Chips */}
@@ -62,7 +62,7 @@ const HomePage = () => (
 
     {/* ✨ Tagline (Bottom Center) */}
     <div className="absolute bottom-8 w-full text-center z-10">
-      <p className="text-pink-600 font-semibold text-lg sm:text-xl tracking-wide">
+      <p className="text-pink-600 font-semibold text-lg sm:text-3xl tracking-wide">
         “Where creativity meets clarity.”
       </p>
     </div>
