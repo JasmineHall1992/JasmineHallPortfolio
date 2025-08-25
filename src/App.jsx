@@ -5,6 +5,7 @@ import PortfolioPage from './components/Portfolio';
 import Navigation from './components/Navigation';
 import BlogPostsPage from './components/Blog';
 import ContactPage from './components/ContactPage'; 
+import CaseStudyPage from './components/CaseStudy';
 
 function AppContent() {
   const location = useLocation();
@@ -18,6 +19,7 @@ function AppContent() {
         <Route path="/resume" element={<ResumePage />} />
         <Route path="/portfolio" element={<PortfolioPage />} />
         <Route path="/blog" element={<BlogPostsPage />} />
+        <Route path="/case-studies" element={<CaseStudyPage />} />
         <Route path="/contact" element={<ContactPage />} /> 
       </Routes>
     </div>

@@ -54,8 +54,8 @@ const HomePage = () => (
           <Link to="/resume" className="cute-btn">Resume</Link>
           <Link to="/portfolio" className="cute-btn">Portfolio</Link>
           <Link to="/blog" className="cute-btn">Blog</Link>
+         <Link to="/case-studies" className="cute-btn">Case Studies</Link>
           <Link to="/contact" className="cute-btn">Contact</Link>
-          <a href="#" className="cute-btn">Case Studies</a>
         </div>
       </div>
     </div>
