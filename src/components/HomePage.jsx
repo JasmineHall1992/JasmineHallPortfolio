@@ -1,20 +1,7 @@
 import { Link } from 'react-router-dom';
 
 const HomePage = () => (
-  <div className="min-h-screen bg-pink-200 text-gray-800 px-6 pt-16 pb-32 font-sans relative overflow-hidden flex flex-col justify-between">
-
-    {/* ✨ Floating Background Objects */}
-    <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
-      <span className="floating-object" style={{ top: '5%', left: '8%', color: '#f472b6' }}>♡</span>
-      <span className="floating-object delay-1" style={{ top: '10%', right: '12%', color: '#fbbf24' }}>✦</span>
-      <span className="floating-object delay-2" style={{ top: '20%', left: '40%', color: '#ec4899' }}>★</span>
-      <span className="floating-object delay-3" style={{ top: '35%', left: '20%', color: '#f43f5e' }}>❀</span>
-      <span className="floating-object delay-4" style={{ top: '45%', right: '10%', color: '#facc15' }}>✧</span>
-      <span className="floating-object delay-5" style={{ top: '50%', left: '70%', color: '#fb7185' }}>♡</span>
-      <span className="floating-object delay-2" style={{ bottom: '15%', left: '5%', color: '#f472b6' }}>★</span>
-      <span className="floating-object delay-4" style={{ bottom: '10%', right: '5%', color: '#fcd34d' }}>✦</span>
-      <span className="floating-object delay-3" style={{ bottom: '20%', left: '40%', color: '#ec4899' }}>❀</span>
-    </div>
+  <div className="min-h-screen bg-rose-50 text-gray-800 px-6 pt-16 pb-32 font-sans relative overflow-hidden flex flex-col justify-between">
 
     {/* Main Content */}
     <div className="relative z-10 max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-20">
@@ -31,7 +18,7 @@ const HomePage = () => (
 
       {/* Text Section */}
       <div className="w-full flex-1 text-center lg:text-left">
-        <h1 className="text-5xl font-extrabold text-pink-600 leading-tight tracking-tight mb-2 flex items-center justify-center lg:justify-start gap-3">
+        <h1 className="text-5xl font-extrabold text-orange-600 leading-tight tracking-tight mb-2 flex items-center justify-center lg:justify-start gap-3">
           <span className="font-cute">Jasmine Hall</span>
           <span className="w-6 h-6 inline-block">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="currentColor" className="text-pink-400">
@@ -41,12 +28,12 @@ const HomePage = () => (
           </span>
         </h1>
 
-        <p className="text-pink-700 font-semibold uppercase text-sm tracking-widest mb-4">
+        <p className="text-orange-700 font-semibold uppercase text-sm tracking-widest mb-4">
           Software Engineer + Project Manager
         </p>
 
         <p className="text-3xl leading-relaxed mb-6 text-gray-700 max-w-xl mx-auto lg:mx-0">
-          Welcome! My name is Jasmine Hall and I am a developer and project manager passionate about crafting joyful digital experiences. My background managing film sets brings creativity, calm, and coordination to every project 🌷
+          Welcome! My name is Jasmine Hall and I am a developer and project manager passionate about crafting joyful digital experiences. My background in coordinating film projects brings creativity, calm, and coordination to every project 🌷
         </p>
 
         {/* Chips */}
@@ -62,8 +49,8 @@ const HomePage = () => (
 
     {/* ✨ Tagline (Bottom Center) */}
     <div className="absolute bottom-8 w-full text-center z-10">
-      <p className="text-pink-600 font-semibold text-lg sm:text-3xl tracking-wide">
-        “Where creativity meets clarity.”
+      <p className="text-orange-600 font-semibold text-lg sm:text-3xl tracking-wide">
+        "Where creativity meets clarity."
       </p>
     </div>
 
