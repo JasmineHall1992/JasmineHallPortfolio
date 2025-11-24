@@ -28,7 +28,7 @@ const PortfolioPage = () => {
               MY PORTFOLIO
             </h1>
             <div className="inline-block bg-gradient-to-r from-red-400 to-orange-400 text-white px-8 py-3 rounded-full text-lg font-bold tracking-wider uppercase shadow-lg">
-              Live Projects & Case Studies
+              Live Projects
             </div>
             <p className="mt-8 text-gray-700 text-lg max-w-3xl mx-auto leading-relaxed">
               Explore my collection of full-stack applications, from creative project management tools to AI-powered journaling platforms. Each project showcases different aspects of modern web development.
