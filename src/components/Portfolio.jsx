@@ -131,11 +131,11 @@ const PortfolioPage = () => {
                         <div className="w-3 h-3 bg-orange-400 rounded-full"></div>
                         <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                       </div>
-                      <div className="bg-gray-50 rounded-lg p-8 text-center">
-                        <div className="text-6xl mb-4">🎬</div>
-                        <p className="text-gray-600 font-medium">StreamScene Screenshot</p>
-                        <p className="text-gray-400 text-sm mt-2">Coming Soon</p>
-                      </div>
+                      <img
+                        src="./images/projects/streamscene.jpg"
+                        alt="StreamScene Application Screenshot"
+                        className="w-full rounded-lg shadow-md"
+                      />
                     </div>
                   </div>
                 </div>
@@ -156,11 +156,11 @@ const PortfolioPage = () => {
                         <div className="w-3 h-3 bg-orange-400 rounded-full"></div>
                         <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                       </div>
-                      <div className="bg-gray-50 rounded-lg p-8 text-center">
-                        <div className="text-6xl mb-4">🤖</div>
-                        <p className="text-gray-600 font-medium">DigiCry Screenshot</p>
-                        <p className="text-gray-400 text-sm mt-2">Coming Soon</p>
-                      </div>
+                      <img
+                        src="./images/projects/digicry.png"
+                        alt="DigiCry Application Screenshot"
+                        className="w-full rounded-lg shadow-md"
+                      />
                     </div>
                   </div>
                 </div>
@@ -341,11 +341,11 @@ const PortfolioPage = () => {
                         <div className="w-3 h-3 bg-orange-400 rounded-full"></div>
                         <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                       </div>
-                      <div className="bg-gray-50 rounded-lg p-8 text-center">
-                        <div className="text-6xl mb-4">🍳</div>
-                        <p className="text-gray-600 font-medium">Tabetai Screenshot</p>
-                        <p className="text-gray-400 text-sm mt-2">Coming Soon</p>
-                      </div>
+                      <img
+                        src="./images/projects/tabetai.png"
+                        alt="Tabetai Application Screenshot"
+                        className="w-full rounded-lg shadow-md"
+                      />
                     </div>
                   </div>
                 </div>
