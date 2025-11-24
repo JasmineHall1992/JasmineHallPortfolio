@@ -9,7 +9,7 @@ const HomePage = () => (
       {/* Profile Image */}
       <div className="w-full max-w-sm">
         <img
-          src="/images/profile.jpg"
+          src="./images/profile.jpg"
           alt="Jasmine Hall"
           className="w-full rounded-[2rem] object-cover shadow-xl border-4 border-pink-200"
           style={{ aspectRatio: '3/4' }}
